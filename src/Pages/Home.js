@@ -27,7 +27,7 @@ const Home = () => {
             <Box>
                 <Brands />
             </Box>
-            <Box sx={{ bgcolor: "#000212", px: 10 }}>
+            <Box sx={{ bgcolor: "#000212", px: [3,10] }}>
                 <TitleWithDescription
                     title="Frequently Asked Questions"
                 />

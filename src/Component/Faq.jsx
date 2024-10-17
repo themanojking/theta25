@@ -102,8 +102,8 @@ export default function Faq() {
           flexDirection: "column",
           gap: 1,
         }}
-         data-aos="zoom-in-up"
-            data-aos-duration="2000"
+        data-aos="zoom-in-up"
+        data-aos-duration="2000"
       >
         {currentFaq.map((i, k) => (
           <Accordion

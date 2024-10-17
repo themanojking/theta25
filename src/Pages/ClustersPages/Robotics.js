@@ -10,60 +10,19 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
 import CancelIcon from "@mui/icons-material/Cancel";
 import Footer from '../../Component/Footer';
-const Emulsion = () => {
+const Robotics = () => {
 
     const contestData = [
         {
-            title: 'Short Film Contest Registration',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'Mobile Photography Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'AD Film Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'MashUp Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'Digital Camera Photography Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'On spot Photography Contest',
-            lastDate: '20 - 04 - 2023',
+            title: 'Robo Craze',
+            lastDate: '04 - 05 - 2023',
             submissionDates: '20th April - 25 April',
         },
     ];
     const faqs = [
         {
-            que: "Short Film Contest?",
-            ans: "Currently enrolled college students can register for a short film contest with a PG-13 theme, with a 7-8 minute limit on the film's duration. The registration concludes on April 20th, 2023 and the deadline for submission is April 25th, 2023. Cash prizes of Rs. 15,000, Rs. 7,000, and Rs. 3,000 will be awarded to the top three films.",
-        },
-        {
-            que: "AD Film Contest?",
-            ans: " Currently enrolled college students can register for a AD film contest, with a 2-3 minute limit on the AD's duration. The registration concludes on April 20th, 2023 and the deadline for submission is April 25th, 2023. Cash prizes of Rs. 3,000, Rs. 1,500, and Rs. 500 will be awarded to the top three films.",
-        },
-        {
-            que: "MashUp Contest?",
-            ans: "Currently enrolled college students can register for a MashUp contest with a theme of biography or creating awareness for society, with a duration of 2-3 minutes and may contain copyrighted material. Submissions online and prizes of Rs. 3000, Rs. 1500, and Rs. 500 for the top 3 winners.",
-        },
-        {
-            que: "Photography Contest?",
-            ans: "This photography contest is open to college students and has two themes: digital camera photography (reflection) and mobile photography (environmental portrait). Registration concludes on April 15th, with the submission deadline on April 25th. Prizes are awarded for both categories: Rs. 3,000, Rs. 1,500, and Rs. 500 for digital camera photography, and Rs. 1,500, Rs. 700, and Rs. 300 for mobile photography. Participants must not upload photos on any social media platforms and follow all event guidelines.",
-        },
-        {
-            que: "On spot Photography Contest?",
-            ans: "On Spot Photography Contest for for currently enrolled college students. Theme will be revealed during the fest. Participants have 30 minutes to capture their best shot on the day of the event. Registration fee is Rs. 50 and prizes are Rs. 1,500 for first place, Rs. 700 for second place, and Rs. 300 for third place.",
+            que: "Robo Craze?",
+            ans: "A team can have maximum of 3 different rounds.This event consists of 3 different rounds.Drive your bots and have fun.",
         },
     ];
     const [currentFaq, setCurrentFaq] = React.useState(faqs);
@@ -123,7 +82,7 @@ const Emulsion = () => {
                             textAlign: 'center'
                         }}
                     >
-                        Emulsion
+                        Robotics
                     </Typography>
                     <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
                         <Link to="/" style={{ textDecoration: "none" }} ><Typography
@@ -147,15 +106,15 @@ const Emulsion = () => {
                                 fontSize: '18px',
                             }}
                         >
-                            Emulsion
+                            Robotics
                         </Typography>
                     </Box>
                 </Box>
             </Box>
-            <Box sx={{ py:5, px: 2, bgcolor: '#000212' }}>
+            <Box sx={{ py: 5, px: 2, bgcolor: '#000212' }}>
                 <TitleWithDescription
-                    title="About Emlusion"
-                    description="Emulsion celebrates creativity and innovation in various forms of media and art. It includes contests such as photography, videography, AD, and short films. Participants showcase their skills and creativity in friendly competition."
+                    title="About Robotics"
+                    description="The cluster aims to provide a platform for like-minded individuals to come together and learn about robotics, programming, electronics, and mechanics. Members can collaborate on various projects, from building basic robots to machines, using advanced autonomous a range of tools and technologies. The cluster may also participate in robotics competitions, hackathons, and other events to test their skills and showcase their creations."
                 />
                 <Typography
                     gutterBottom
@@ -169,11 +128,11 @@ const Emulsion = () => {
                         textAlign: 'center',
                         letterSpacing: 2
                     }}
-                >"We Speak Cinema"</Typography>
+                >"From Fiction to Reality"</Typography>
             </Box>
             <Box sx={{ py: 5, bgcolor: '#000212' }}>
                 <TitleWithDescription
-                    title="Contest Registration"
+                    title="Event Registration"
                 />
                 <Box
                     sx={{
@@ -181,7 +140,7 @@ const Emulsion = () => {
                         flexWrap: 'wrap',
                         justifyContent: 'center',
                         gap: 3,
-                        padding:4,
+                        padding: 4,
                     }}
                 >
                     {contestData.map((contest, index) => (
@@ -437,4 +396,4 @@ const Emulsion = () => {
     )
 }
 
-export default Emulsion
+export default Robotics

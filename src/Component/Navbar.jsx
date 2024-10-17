@@ -79,7 +79,7 @@ export default function Navbar(props) {
 
   const navItems = [
     {
-      link: "/home",
+      link: "/",
       name: "Home",
     },
     {
@@ -362,8 +362,9 @@ export default function Navbar(props) {
                         component="img"
                         src="./Assets/logo.png"
                         sx={{
-                          width: ["65%", "35%"],
-                          p: 2,
+                          width: "18%",
+                          scale: 1.5,
+                          ml: 2,
                         }}
                         alt="logo"
                       />
@@ -388,8 +389,8 @@ export default function Navbar(props) {
                   component="img"
                   src="./Assets/logo.png"
                   sx={{
-                    width: "40%",
-                    p: 2.5,
+                    width: "18%",
+                    scale: 2.2,
                   }}
                   alt="logo"
                 />

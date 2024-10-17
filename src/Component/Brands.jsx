@@ -103,8 +103,8 @@ const Brands = () => {
               >
                 <Box
                   sx={{
-                    width: 140,
-                    height: 140,
+                    width:[100,140],
+                    height:[100,140],
                     borderRadius: "50%",
                     padding: "5px",
                     background: `linear-gradient(91.83deg, rgb(255, 81, 47) 0%, rgb(221, 36, 118) 100%)`,

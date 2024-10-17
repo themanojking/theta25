@@ -2,13 +2,13 @@ import { Box, List, ListItem, ListItemText } from "@mui/material";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const ProductNavbar = () => {
+const EventNavbar = () => {
   const location = useLocation();
   const items = [
-    { link: "/pizza", name: "Pizza" },
-    { link: "/burger", name: "Burgers" },
-    { link: "/juice", name: "Juice" },
-    { link: "/noodle", name: "Noodles" },
+    { link: "/pizza", name: "All Events" },
+    { link: "/burger", name: "Day 1" },
+    { link: "/juice", name: "Day 2" },
+    { link: "/noodle", name: "Day 3" },
   ];
   const ScrollToTop = () => {
     window.scrollTo(0, 0);
@@ -18,8 +18,8 @@ const ProductNavbar = () => {
       sx={{
         display: "flex",
         justifyContent: "center",
-        overflowX: { xs: "auto", sm: "hidden" }, 
-        whiteSpace: "nowrap", 
+        overflowX: { xs: "auto", sm: "hidden" },
+        whiteSpace: "nowrap",
         width: "100%",
         height: { xs: "auto", sm: "auto" },
       }}
@@ -27,10 +27,10 @@ const ProductNavbar = () => {
       <List
         sx={{
           display: "flex",
-          flexDirection: "row", 
+          flexDirection: "row",
           padding: 0,
-          overflowX: "auto", 
-          flexWrap: "nowrap", 
+          overflowX: "auto",
+          flexWrap: "nowrap",
         }}
       >
         {items.map((item, index) => {
@@ -68,4 +68,4 @@ const ProductNavbar = () => {
   );
 };
 
-export default ProductNavbar;
+export default EventNavbar;
