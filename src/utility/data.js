@@ -23,7 +23,7 @@ export const slides = [
   },
   {
     img: "Assets/img1.jpg",
-    title: "DESIGN SLIDER",
+    title: "THETA",
     topic: "ANIMAL",
     des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
     buttons: ["SEE MORE", "SUBSCRIBE"],
