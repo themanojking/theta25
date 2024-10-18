@@ -13,7 +13,7 @@ export const brands = [
 
 export const slides = [
   {
-    img: "Assets/bg-2.png",
+    img: "Assets/bg-2.jpeg",
     title: "THETA",
     topic: "2K25",
     des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",

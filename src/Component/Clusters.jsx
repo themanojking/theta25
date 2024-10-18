@@ -70,7 +70,7 @@ const gradientBorderAnimation = keyframes`
 
 const RotatingCard = ({ title, imgSrc, subtitle, description, path }) => {
   return (
-    <AnimatedCard>
+    <AnimatedCard  data-aos="fade-up">
       <Typography
         variant="h6"
         sx={{
@@ -251,6 +251,7 @@ const Clusters = () => {
           subtitle={card.subtitle}
           description={card.description}
           path={card.path}
+           data-aos="fade-up"
         />
       ))}
     </Box>

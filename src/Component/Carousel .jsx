@@ -92,7 +92,6 @@ const Carousel = () => {
                 alt={`Slide ${index + 1}`}
                 sx={{
                   width: "100%",
-                  height: "100%",
                   objectFit: "cover",
                 }}
               />
@@ -124,13 +123,13 @@ const Carousel = () => {
                   sx={{
                     fontWeight: "bold",
                     lineHeight: "1.3em",
-                    color: "#6249CE",
+                    color: "#DBD3D3",
                   }}
                 >
                   {slide.topic}
                 </Typography>
                   <Typography
-                    variant="h5"
+                    variant="h6"
                     sx={{ marginTop: "20px", lineHeight: "1.5em" }}
                   >
                     {slide.des}
