@@ -3,6 +3,7 @@ import { Box, Button, Typography, IconButton, Container } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 import { keyframes } from "@emotion/react";
 import { slides } from "../utility/data";
+import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight";
 const AUTO_PLAY_INTERVAL = 7000;
 const TRANSITION_DURATION = 3000;
 
@@ -123,45 +124,47 @@ const Carousel = () => {
                   sx={{
                     fontWeight: "bold",
                     lineHeight: "1.3em",
-                    color: "#f1683a",
+                    color: "#6249CE",
                   }}
                 >
                   {slide.topic}
                 </Typography>
-                <Typography
-                  variant="body1"
-                  sx={{ marginTop: "20px", lineHeight: "1.5em" }}
-                >
-                  {slide.des}
-                </Typography>
+                  <Typography
+                    variant="h5"
+                    sx={{ marginTop: "20px", lineHeight: "1.5em" }}
+                  >
+                    {slide.des}
+                  </Typography>
                 <Box
                   sx={{
                     display: "grid",
-                    gridTemplateColumns: { xs: "1fr", sm: "repeat(2, 130px)" },
+                    gridTemplateColumns: { xs: "1fr", sm: "repeat(2, 250px)" },
                     gridTemplateRows: "40px",
                     gap: "5px",
                     marginTop: "20px",
                   }}
                 >
-                  {slide.buttons.map((btn, idx) => (
                     <Button
-                      key={idx}
-                      variant={idx === 1 ? "outlined" : "contained"}
-                      sx={{
-                        border: idx === 1 ? "1px solid #fff" : "none",
-                        backgroundColor: idx === 1 ? "transparent" : "#eee",
-                        color: idx === 1 ? "#eee" : "#000",
-                        letterSpacing: "3px",
-                        fontWeight: 500,
-                        "&:hover": {
-                          backgroundColor:
-                            idx === 1 ? "rgba(238,238,238,0.1)" : "#ddd",
-                        },
-                      }}
-                    >
-                      {btn}
-                    </Button>
-                  ))}
+                    variant="contained"
+                    endIcon={<ArrowCircleRightIcon />}
+                    href={slide.path}
+                    sx={{
+                      background: `linear-gradient(91.83deg, rgb(255, 81, 47) 0%, rgb(221, 36, 118) 100%)`,
+                      textTransform: "none",
+                      borderRadius: "50px",
+                      fontSize: "1rem",
+                      px: [4],
+                      color: "#fff",
+                      zIndex: 1,
+                      border: "2px solid transparent",
+                      "&:hover": {
+                        background: "transparent",
+                        border: "2px solid #EF3D4E",
+                      },
+                    }}
+                  >
+                    See More
+                  </Button>
                 </Box>
               </Box>
             </Box>
@@ -198,8 +201,8 @@ const Carousel = () => {
                 overflow: "hidden",
                 border:
                   index === currentIndex
-                    ? "2px solid #f1683a"
-                    : "2px solid transparent",
+                    ? "5px solid #6249CE"
+                    : "5px solid transparent",
                 transition: "transform 0.3s",
                 scrollSnapAlign: "start",
                 "&:hover img": {

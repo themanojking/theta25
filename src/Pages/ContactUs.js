@@ -7,7 +7,6 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import Footer from '../Component/Footer';
 import Navbar from '../Component/Navbar';
-
 import { Link } from 'react-router-dom'
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 const theme = createTheme({
@@ -115,9 +114,10 @@ const ContactUs = () => {
                 <Box
                     sx={{
                         position: "relative",
-                        backgroundImage: "url(Assets/Emulsion.png)",
-                        backgroundSize: "50%",
-                        backgroundPosition: "center",
+                        backgroundImage: "url(Assets/Logo.png)",
+                    backgroundSize: "40%",
+                    backgroundPosition: "center",
+                    backgroundRepeat:'no-repeat',
                         color: "white",
                         padding: { xs: "30px 1rem", md: "50px 10rem" },
                         height: { xs: "50vh", md: "55vh" },

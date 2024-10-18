@@ -23,7 +23,7 @@ const AnimatedCard = styled(Box)(({ theme }) => ({
     height: "180%",
     background: "#ff0800",
     transform: "rotate(45deg)",
-    animation: "animate 2s linear infinite",
+    animation: "animate 4s linear infinite",
   },
   "&::after": {
     position: "absolute",

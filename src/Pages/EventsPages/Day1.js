@@ -9,34 +9,56 @@ const Day1 = () => {
 
     const contestData = [
         {
-            title: 'Short Film Contest Registration',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
+            title: 'Theta 2k24 Film Festival',
+            lastDate: '01:00 p.m. - 4:00 p.m. | Venue: 202',
+            submissionDates: 'Film Studies',
         },
         {
-            title: 'Mobile Photography Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
+            title: 'Photography Challenge',
+            lastDate: '9:00 a.m. - 12:00 p.m. | Venue: 303',
+            submissionDates: 'Art & Design',
         },
         {
-            title: 'AD Film Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
+            title: 'Innovative Tech Expo',
+            lastDate: '2:00 p.m. - 5:00 p.m. | Venue: LAB-1',
+            submissionDates: 'Technology',
         },
         {
-            title: 'MashUp Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
+            title: 'Creative Writing Contest',
+            lastDate: '10:00 a.m. - 1:00 p.m. | Venue: 401',
+            submissionDates: 'Literature',
+        },
+        {
+            title: 'Science Fair',
+            lastDate: '11:00 a.m. - 2:00 p.m. | Venue: 106 & 107',
+            submissionDates: 'Science & Innovation',
+        },
+        {
+            title: 'Music Band Competition',
+            lastDate: '10:00 a.m. - 1:00 p.m. | Venue: Auditorium',
+            submissionDates: 'Performing Arts',
+        },
+        {
+            title: 'Math Olympiad',
+            lastDate: '1:00 p.m. - 3:00 p.m. | Venue: 416',
+            submissionDates: 'Mathematics',
+        },
+        {
+            title: 'Coding Hackathon',
+            lastDate: '10:00 a.m. - 1:00 p.m. | Venue: LAB-2',
+            submissionDates: 'Computer Science',
         },
     ];
+    
     return (
         <>
             <Box
                 sx={{
                     position: "relative",
-                    backgroundImage: "url(Assets/Emulsion.png)",
-                    backgroundSize: "50%",
+                    backgroundImage: "url(Assets/Logo.png)",
+                    backgroundSize: "40%",
                     backgroundPosition: "center",
+                    backgroundRepeat:'no-repeat',
                     color: "white",
                     padding: { xs: "30px 1rem", md: "50px 10rem" },
                     height: { xs: "50vh", md: "55vh" },
@@ -133,7 +155,7 @@ const Day1 = () => {
 
                             <Typography
                                 sx={{
-                                    fontSize: '1.2rem',
+                                    fontSize: '2rem',
                                     fontWeight: 'bold',
                                     color: '#333',
                                     mb: 1
@@ -150,22 +172,24 @@ const Day1 = () => {
                                     mb: 2.5
                                 }}
                             >
-                                Last Date for Registration:<br /> {contest.lastDate}
+                             {contest.lastDate}
                             </Typography>
                             <Typography
                                 sx={{
-                                    fontSize: '1.1rem',
+                                    fontSize: '1.3rem',
                                     color: '#9C79A1',
-                                    letterSpacing: 0.8,
+                                    fontWeight:700,
+                                    letterSpacing:1,
                                     mb: 3,
                                 }}
                             >
-                                Submission dates: {contest.submissionDates}
+                                {contest.submissionDates}
                             </Typography>
                             <Button
                                 variant="contained"
                                 sx={{
                                     background: `linear-gradient(91.83deg, rgb(255, 81, 47) 0%, rgb(221, 36, 118) 100%)`,
+                                    width:'80%',
                                     textTransform: "none",
                                     borderRadius: "50px",
                                     fontSize: "1rem",
@@ -182,7 +206,7 @@ const Day1 = () => {
                                 Register Now
                             </Button>
                         </Box>
-                    ))}
+                    ))} 
                 </Box>
             </Box>
             <Box sx={{ bgcolor: "#000212" }}>

@@ -7,26 +7,33 @@ import Footer from '../../Component/Footer';
 import EventNavbar from '../../Component/EventNavbar';
 const Day2 = () => {
 
+
     const contestData = [
         {
-            title: 'Short Film Contest Registration',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
+            title: 'Escape Room',
+            lastDate: '10:00 a.m. - 1:00 p.m. | Venue: 406',
+            submissionDates: 'Strategia',
         },
         {
-            title: 'Mobile Photography Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
+            title: 'Robo-Saga',
+            lastDate: '9:30 a.m. - 1:30 p.m. | Venue: Basketball Court',
+            submissionDates: 'Robotics',
         },
+        {
+            title: 'Code Hunt',
+            lastDate: '2:00 p.m. - 5:00 p.m. | Venue: LAB-2',
+            submissionDates: 'Informatica',
+        }
     ];
     return (
         <>
             <Box
                 sx={{
                     position: "relative",
-                    backgroundImage: "url(Assets/Emulsion.png)",
-                    backgroundSize: "50%",
+                    backgroundImage: "url(Assets/Logo.png)",
+                    backgroundSize: "40%",
                     backgroundPosition: "center",
+                    backgroundRepeat:'no-repeat',
                     color: "white",
                     padding: { xs: "30px 1rem", md: "50px 10rem" },
                     height: { xs: "50vh", md: "55vh" },
@@ -98,7 +105,7 @@ const Day2 = () => {
                         padding: 4,
                     }}
                 >
-                    {contestData.map((contest, index) => (
+                     {contestData.map((contest, index) => (
                         <Box
                             key={index}
                             data-aos="fade-up"
@@ -123,7 +130,7 @@ const Day2 = () => {
 
                             <Typography
                                 sx={{
-                                    fontSize: '1.2rem',
+                                    fontSize: '2rem',
                                     fontWeight: 'bold',
                                     color: '#333',
                                     mb: 1
@@ -140,22 +147,24 @@ const Day2 = () => {
                                     mb: 2.5
                                 }}
                             >
-                                Last Date for Registration:<br /> {contest.lastDate}
+                             {contest.lastDate}
                             </Typography>
                             <Typography
                                 sx={{
-                                    fontSize: '1.1rem',
+                                    fontSize: '1.3rem',
                                     color: '#9C79A1',
-                                    letterSpacing: 0.8,
+                                    fontWeight:700,
+                                    letterSpacing:1,
                                     mb: 3,
                                 }}
                             >
-                                Submission dates: {contest.submissionDates}
+                                {contest.submissionDates}
                             </Typography>
                             <Button
                                 variant="contained"
                                 sx={{
                                     background: `linear-gradient(91.83deg, rgb(255, 81, 47) 0%, rgb(221, 36, 118) 100%)`,
+                                    width:'80%',
                                     textTransform: "none",
                                     borderRadius: "50px",
                                     fontSize: "1rem",

@@ -207,7 +207,7 @@ const Footer = () => {
                 textDecoration: "none",
               }}
             >
-              Hari Hara
+              Hari Hara & JayaSurya
             </a>
           </Typography>
         </Box>

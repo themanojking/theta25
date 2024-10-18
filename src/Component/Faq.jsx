@@ -9,38 +9,39 @@ import CancelIcon from "@mui/icons-material/Cancel";
 export default function Faq() {
   const faqs = [
     {
-      que: "How can I place an order?",
-      ans: 'Click the "Buy" button next to your desired item to start your order on WhatsApp.',
+      que: "Who can attend the cultural program?",
+      ans: "Attendance is restricted to our college students only. Guests from other colleges are not permitted.",
     },
     {
-      que: "How do I complete my purchase on WhatsApp?",
-      ans: " Message us on WhatsApp with your order details. We accept payments via WhatsApp Pay and bank transfer.",
+      que: "Are there any dress code requirements?",
+      ans: "Yes, traditional clothing such as dhoties and sarees is not allowed. Please dress in smart casuals.",
     },
     {
-      que: "How long does it take to process my order?",
-      ans: "Orders are processed promptly during business hours. You'll receive confirmation and delivery details upon payment.",
+      que: "What do I need to enter the event?",
+      ans: "Entry is only allowed with a valid student ID card. Please ensure you have it with you.",
     },
     {
-      que: "Can I track my order?",
-      ans: "Yes, we provide tracking information once your order is shipped.",
+      que: "Can I bring a guest?",
+      ans: "No, this event is exclusive to our college students. No external guests are allowed.",
     },
     {
-      que: " Do you ship internationally?",
-      ans: "Yes, we offer international shipping. Costs and delivery times vary.",
+      que: "What time does the event start?",
+      ans: "The event starts at 5 PM. Please arrive on time for entry.",
     },
     {
-      que: " How can I contact customer support?",
-      ans: "Reach us on WhatsApp at +91 7339534672 or through our Contact Us page.",
+      que: "Is there a registration fee?",
+      ans: "No, there is no registration fee to attend the cultural program.",
     },
     {
-      que: "What payment methods are accepted via WhatsApp?",
-      ans: "We accept payments via WhatsApp Pay, bank transfer, and other convenient methods. Our team will provide payment instructions once you confirm your order details.",
+      que: "What if I forget my ID card?",
+      ans: "Unfortunately, entry will not be permitted without a valid student ID. Please make sure to bring it.",
     },
     {
-      que: "Can I modify or cancel my order?",
-      ans: "Please contact us through WhatsApp as soon as possible if you need to modify or cancel your order. We'll assist you based on the order status.",
+      que: "How can I contact the event organizers?",
+      ans: "You can reach the event organizers via email at events@college.edu or through our student council representatives.",
     },
   ];
+  
   const [currentFaq, setCurrentFaq] = React.useState(faqs);
   const [expand, setExpand] = React.useState(false);
   const [expanded, setExpanded] = React.useState(false);

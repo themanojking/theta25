@@ -75,7 +75,7 @@ const  Informatica = () => {
             <Box
                 sx={{
                     position: "relative",
-                    backgroundImage: "url(Assets/Emulsion.png)",
+                    backgroundImage: "url(Assets/Informatica.png)",
                     backgroundSize: "50%",
                     backgroundPosition: "center",
                     color: "white",

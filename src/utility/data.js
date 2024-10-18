@@ -13,40 +13,44 @@ export const brands = [
 
 export const slides = [
   {
-    img: "Assets/img1.jpg",
+    img: "Assets/bg-2.png",
     title: "THETA",
-    topic: "2024",
+    topic: "2K25",
     des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
+    buttons: ["SEE MORE"],
     thumbnailtitle: "Day",
     thumbnaildesc: "Some Things",
+    path:'/AllEvents'
   },
   {
-    img: "Assets/img1.jpg",
-    title: "THETA",
-    topic: "ANIMAL",
+    img: "Assets/bg-4.png",
+    title: "THETA Day 1",
+    topic: "DJ and Team Swaraag",
     des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
+    buttons: ["SEE MORE"],
     thumbnailtitle: "Day 1",
     thumbnaildesc: "DJ and Team Swaraag",
+    path:'/Day1'
   },
   {
-    img: "Assets/img1.jpg",
-    title: "DESIGN SLIDER",
-    topic: "ANIMAL",
+    img: "Assets/bg-2.png",
+    title: "THETA Day 2",
+    topic: "DJ and Team Recoil",
     des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
+    buttons: ["SEE MORE"],
     thumbnailtitle: "Day 2",
     thumbnaildesc: " DJ and Team Recoil",
+     path:'/Day2'
   },
   {
-    img: "Assets/img1.jpg",
-    title: "DESIGN SLIDER",
-    topic: "ANIMAL",
+    img: "Assets/bg-3.jpg",
+    title: "THETA Day 3",
+    topic: "Pro Nite",
     des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
+    buttons: ["SEE MORE"],
     thumbnailtitle: "Day 3",
     thumbnaildesc: "Pro Nite",
+     path:'/Day3'
   },
 ];
 
