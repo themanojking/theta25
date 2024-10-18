@@ -10,12 +10,12 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import Grid from "@mui/material/Grid";
 import { Link } from "react-router-dom";
 const navLinks = [
-  { title: "Home", path: "/home" },
-  { title: "Event", path: "/about" },
+  { title: "Home", path: "/" },
+  { title: "Event", path: "/AllEvents" },
   { title: "Contact Us", path: "/contact" },
 ];
 const UsefulLinks = [
-  { title: "Sastra University", path: "/home" },
+  { title: "Sastra University", path: "/https://www.sastra.edu/" },
   { title: "Rules & Regulation", path: "/about" },
 ];
 const ScrollToTop = () => {
@@ -38,7 +38,7 @@ const Footer = () => {
     };
   }, []);
   return (
-    <Box sx={{ bgcolor: "#000212", color: "white", px: { xs: 2} }}>
+    <Box sx={{ bgcolor: "#000212", color: "white", px: { xs: 2 } }}>
       <Box sx={{ py: 5 }}>
         <Grid container spacing={4} justifyContent="center">
           <Grid
@@ -112,7 +112,7 @@ const Footer = () => {
             data-aos-easing="ease-in-sine"
           >
             <Typography variant="h6" gutterBottom>
-            Useful links
+              Useful links
             </Typography>
             {UsefulLinks.map((item, index) => (
               <Typography
@@ -129,7 +129,7 @@ const Footer = () => {
                   },
                 }}
               >
-                <Link to={item.path} onClick={ScrollToTop}>
+                <Link href={item.path} onClick={ScrollToTop}>
                   {item.title}
                 </Link>
               </Typography>
@@ -148,9 +148,7 @@ const Footer = () => {
             <Typography variant="h6" gutterBottom>
               Newsletter Subscribe
             </Typography>
-            <Typography gutterBottom>
-            Subscribe for latest upadates
-            </Typography>
+            <Typography gutterBottom>Subscribe for latest upadates</Typography>
             <Box display="flex" mt={2}>
               <TextField
                 variant="outlined"

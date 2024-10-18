@@ -18,26 +18,6 @@ const Day2 = () => {
             lastDate: '20 - 04 - 2023',
             submissionDates: '20th April - 25 April',
         },
-        {
-            title: 'AD Film Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'MashUp Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'Digital Camera Photography Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
-        {
-            title: 'On spot Photography Contest',
-            lastDate: '20 - 04 - 2023',
-            submissionDates: '20th April - 25 April',
-        },
     ];
     return (
         <>

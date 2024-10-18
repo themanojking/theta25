@@ -2,7 +2,7 @@ import React from "react";
 import { Avatar, Box } from "@mui/material";
 import { keyframes } from "@emotion/react";
 import TitleWithDescription from "./TitleWithDescription ";
-
+import { brands } from "../utility/data";
 const pulseAnimation = keyframes`
   0% {
     box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
@@ -26,19 +26,6 @@ const gradientBorderAnimation = keyframes`
     background-position: 0% 50%;
   }
 `;
-
-const brands = [
-  { id: 1, img: "Assets/Biogenesis.jpg" },
-  { id: 2, img: "Assets/Electronica.png" },
-  { id: 3, img: "Assets/Emulsion.png" },
-  { id: 4, img: "Assets/Equilibria.png" },
-  { id: 5, img: "Assets/Informatica.png" },
-  { id: 6, img: "Assets/Math.jpg" },
-  { id: 7, img: "Assets/Optica.png" },
-  { id: 8, img: "Assets/Pabbaja.png" },
-  { id: 9, img: "Assets/Sportiva.png" },
-  { id: 10, img: "Assets/Robotics.png" },
-];
 
 const Brands = () => {
   const scrollX = keyframes`
@@ -86,7 +73,7 @@ const Brands = () => {
             whiteSpace: "nowrap",
             gap: ["2rem", "2rem", "5rem"],
             animation: `${scrollX} 50s linear infinite`,
-            py:2
+            py: 2,
           }}
         >
           {duplicateClients.map((review, index) => {
@@ -103,8 +90,8 @@ const Brands = () => {
               >
                 <Box
                   sx={{
-                    width:[100,140],
-                    height:[100,140],
+                    width: [100, 140],
+                    height: [100, 140],
                     borderRadius: "50%",
                     padding: "5px",
                     background: `linear-gradient(91.83deg, rgb(255, 81, 47) 0%, rgb(221, 36, 118) 100%)`,
@@ -119,7 +106,7 @@ const Brands = () => {
                       width: "100%",
                       height: "100%",
                       borderRadius: "50%",
-                      background:'#fff'
+                      background: "#fff",
                     }}
                   />
                 </Box>

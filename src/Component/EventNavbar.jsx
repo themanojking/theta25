@@ -5,10 +5,10 @@ import { Link, useLocation } from "react-router-dom";
 const EventNavbar = () => {
   const location = useLocation();
   const items = [
-    { link: "/pizza", name: "All Events" },
-    { link: "/burger", name: "Day 1" },
-    { link: "/juice", name: "Day 2" },
-    { link: "/noodle", name: "Day 3" },
+    { link: "/AllEvents", name: "All Events" },
+    { link: "/Day1", name: "Day 1" },
+    { link: "/Day2", name: "Day 2" },
+    { link: "/Day3", name: "Day 3" },
   ];
   const ScrollToTop = () => {
     window.scrollTo(0, 0);

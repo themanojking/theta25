@@ -3,7 +3,6 @@ import React from 'react'
 import Navbar from '../../Component/Navbar'
 import { Link } from 'react-router-dom'
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import TitleWithDescription from '../../Component/TitleWithDescription ';
 import Footer from '../../Component/Footer';
 import EventNavbar from '../../Component/EventNavbar';
 const AllEvents = () => {
@@ -26,6 +25,16 @@ const AllEvents = () => {
         },
         {
             title: 'MashUp Contest',
+            lastDate: '20 - 04 - 2023',
+            submissionDates: '20th April - 25 April',
+        },
+        {
+            title: 'Digital Camera Photography Contest',
+            lastDate: '20 - 04 - 2023',
+            submissionDates: '20th April - 25 April',
+        },
+        {
+            title: 'On spot Photography Contest',
             lastDate: '20 - 04 - 2023',
             submissionDates: '20th April - 25 April',
         },

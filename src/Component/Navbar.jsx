@@ -86,16 +86,16 @@ export default function Navbar(props) {
       name: "Events",
     },
     {
-      link: "/contact",
+      link: "/ContactUs",
       name: "Contact Us",
     },
   ];
 
   const dayMenuItems = [
-    { link: "/pizza", name: "All Events" },
-    { link: "/pizza", name: "Day 1 Events" },
-    { link: "/burger", name: "Day 2 Events" },
-    { link: "/juice", name: "Day 3 Events" },
+    { link: "/AllEvents", name: "All Events" },
+    { link: "/Day1", name: "Day 1 Events" },
+    { link: "/Day2", name: "Day 2 Events" },
+    { link: "/Day3", name: "Day 3 Events" },
   ];
 
   const drawer = (
@@ -357,7 +357,7 @@ export default function Navbar(props) {
                   }}
                 >
                   <ImageListItem>
-                    <Link color={"inherit"} underline="none" to="/home">
+                    <Link color={"inherit"} underline="none" to="/">
                       <Box
                         component="img"
                         src="./Assets/logo.png"
@@ -383,7 +383,7 @@ export default function Navbar(props) {
               </Box>
             </Stack>
 
-            <Link color={"inherit"} underline="none" to="/home">
+            <Link color={"inherit"} underline="none" to="/">
               <ImageListItem sx={{ display: ["none", "none", "none", "flex"] }}>
                 <Box
                   component="img"

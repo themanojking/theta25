@@ -68,7 +68,7 @@ const gradientBorderAnimation = keyframes`
   }
 `;
 
-const RotatingCard = ({ title, imgSrc, subtitle, description }) => {
+const RotatingCard = ({ title, imgSrc, subtitle, description, path }) => {
   return (
     <AnimatedCard>
       <Typography
@@ -136,7 +136,7 @@ const RotatingCard = ({ title, imgSrc, subtitle, description }) => {
           textAlign: "center",
           padding: "0 15px",
           zIndex: 1,
-          pb:5
+          pb: 5,
         }}
       >
         {description}
@@ -145,6 +145,7 @@ const RotatingCard = ({ title, imgSrc, subtitle, description }) => {
       <Button
         variant="contained"
         endIcon={<ArrowCircleRightIcon />}
+        href={path}
         sx={{
           background: `linear-gradient(91.83deg, rgb(255, 81, 47) 0%, rgb(221, 36, 118) 100%)`,
           textTransform: "none",
@@ -152,6 +153,7 @@ const RotatingCard = ({ title, imgSrc, subtitle, description }) => {
           fontSize: "1rem",
           px: [4],
           color: "#fff",
+          zIndex: 1,
           border: "2px solid transparent",
           "&:hover": {
             background: "transparent",
@@ -172,60 +174,70 @@ const Clusters = () => {
       imgSrc: "Assets/Emulsion.png",
       subtitle: "We speak cinema",
       description: "Capturing wonders,one frame at a time",
+      path: "/Emulsion",
     },
     {
       title: "Robotics",
       imgSrc: "Assets/Robotics.png",
       subtitle: "Creativity at its finest",
       description: "Innovative solutions through robotics technology.",
+      path: "/Robotics",
     },
     {
       title: "Informatica",
       imgSrc: "Assets/Informatica.png",
       subtitle: "Art redefined",
       description: "Where art meets technology in perfect harmony.",
+      path: "/Informatica",
     },
     {
       title: "Electronica",
       imgSrc: "Assets/Electronica.png",
       subtitle: "Art redefined",
       description: "The pulse of electronic creativity.",
+      path: "/",
     },
     {
       title: "Equilibria",
       imgSrc: "Assets/Equilibria.png",
       subtitle: "Art redefined",
       description: "Finding balance through artistic expression.",
+      path: "/",
     },
     {
       title: "Mathematica",
       imgSrc: "Assets/Math.jpg",
       subtitle: "Art redefined",
       description: "The beauty of mathematics in artistic form.",
+      path: "/",
     },
     {
       title: "Biogenesis",
       imgSrc: "Assets/Biogenesis.jpg",
       subtitle: "Art redefined",
       description: "Life and art intertwined in a unique way.",
+      path: "/",
     },
     {
       title: "Optica",
       imgSrc: "Assets/Optica.png",
       subtitle: "Art redefined",
       description: "A vision of creativity through optics.",
+      path: "/",
     },
     {
       title: "Spotiva",
       imgSrc: "Assets/Sportiva.png",
       subtitle: "Art redefined",
       description: "The intersection of sport and artistic expression.",
+      path: "/",
     },
     {
       title: "Pabbaja",
       imgSrc: "Assets/Pabbaja.png",
       subtitle: "Art redefined",
       description: "Exploring new horizons in art.",
+      path: "/",
     },
   ];
 
@@ -238,6 +250,7 @@ const Clusters = () => {
           imgSrc={card.imgSrc}
           subtitle={card.subtitle}
           description={card.description}
+          path={card.path}
         />
       ))}
     </Box>

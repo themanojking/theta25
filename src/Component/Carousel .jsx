@@ -2,45 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Box, Button, Typography, IconButton, Container } from "@mui/material";
 import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
 import { keyframes } from "@emotion/react";
-
-const slides = [
-  {
-    img: "Assets/img1.jpg",
-    title: "THETA",
-    topic: "2024",
-    des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
-    thumbnailtitle: "Day",
-    thumbnaildesc: "Some Things",
-  },
-  {
-    img: "Assets/img1.jpg",
-    title: "DESIGN SLIDER",
-    topic: "ANIMAL",
-    des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
-    thumbnailtitle: "Day 1",
-    thumbnaildesc: "DJ and Team Swaraag",
-  },
-  {
-    img: "Assets/img1.jpg",
-    title: "DESIGN SLIDER",
-    topic: "ANIMAL",
-    des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
-    thumbnailtitle: "Day 2",
-    thumbnaildesc: " DJ and Team Recoil",
-  },
-  {
-    img: "Assets/img1.jpg",
-    title: "DESIGN SLIDER",
-    topic: "ANIMAL",
-    des: "Lorem ipsum dolor, sit amet consectetur adipisicing elit...",
-    buttons: ["SEE MORE", "SUBSCRIBE"],
-    thumbnailtitle: "Day 3",
-    thumbnaildesc: "Pro Nite",
-  },
-];
+import { slides } from "../utility/data";
 const AUTO_PLAY_INTERVAL = 7000;
 const TRANSITION_DURATION = 3000;
 
