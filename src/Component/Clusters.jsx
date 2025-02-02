@@ -233,7 +233,7 @@ const Clusters = () => {
       path: "/AllEvents",
     },
     {
-      title: "STRATEGIA",
+      title: "",
       imgSrc: "Assets/st.png",
       subtitle: "STRATEGIA",
       description: "Exploring new horizons in art.",
