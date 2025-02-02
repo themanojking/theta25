@@ -84,6 +84,9 @@ export default function Navbar(props) {
     },
     {
       name: "Events",
+    },{
+      link:"/",
+      name:"Workshops"
     },
     {
       link: "/ContactUs",
@@ -362,8 +365,8 @@ export default function Navbar(props) {
                         component="img"
                         src="./Assets/logo.png"
                         sx={{
-                          width: "18%",
-                          scale: 1.5,
+                          width:"18%",
+                          scale: 1.0,
                           ml: 2,
                         }}
                         alt="logo"
@@ -389,8 +392,9 @@ export default function Navbar(props) {
                   component="img"
                   src="./Assets/logo.png"
                   sx={{
-                    width: "18%",
-                    scale: 2.2,
+                    width: "6%",
+                    marginTop: "15px",
+                    scale: 2.0,
                   }}
                   alt="logo"
                 />

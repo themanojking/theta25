@@ -59,10 +59,10 @@ const ContactUs = () => {
     const contactInfo = [
         {
             icon: <HomeIcon style={{ fontSize: '40px' }} />,
-            title: 'Event Headquarters',
+            title: 'Sastra-SRC',
             content: (
                 <>
-                    Theta Cultural Program, <br /> XYZ University Campus
+                    Theta Cultural Program, <br /> Kumbakonam - 612001. Tamilnadu
                 </>
             ),
         },
@@ -71,7 +71,8 @@ const ContactUs = () => {
             title: 'Contact Us',
             content: (
                 <>
-                    Student Coordinator: +1 555 123 4567 <br /> Organization Office: +1 555 765 4321
+                    President : Surya C <br /> Phone No : +91 93606 17308 <br/>
+                   Vice-President : Venkatesh N  <br /> Phone No :+91 94437 76472
                 </>
             ),
         },
@@ -80,7 +81,7 @@ const ContactUs = () => {
             title: 'Email Us',
             content: (
                 <>
-                    culture@xyzuniversity.com <br /> info@thetaprogram.org
+                    srcadmissions(@)sastra.edu <br /> webtek.innovators@gmail.com
                 </>
             ),
         },
@@ -115,7 +116,7 @@ const ContactUs = () => {
                     sx={{
                         position: "relative",
                         backgroundImage: "url(Assets/Logo.png)",
-                    backgroundSize: "40%",
+                    backgroundSize: "20%",
                     backgroundPosition: "center",
                     backgroundRepeat:'no-repeat',
                         color: "white",

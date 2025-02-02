@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 const navLinks = [
   { title: "Home", path: "/" },
   { title: "Event", path: "/AllEvents" },
-  { title: "Contact Us", path: "/contact" },
+  { title: "Contact Us", path: "/ContactUs" },
 ];
 const UsefulLinks = [
   { title: "Sastra University", path: "/https://www.sastra.edu/" },
@@ -51,21 +51,21 @@ const Footer = () => {
             data-aos-easing="ease-in-sine"
           >
             <Typography variant="h6" gutterBottom>
-              Techno-management fest of SASTRA Deemed to be University
+              Techno-management fest of SASTRA-SRC Deemed to be University 
             </Typography>
             <Box display="flex" alignItems="center" mt={2}>
               <HomeIcon />
               <Typography sx={{ ml: 2 }}>
-                4XX7 Middle Street. Thanjavur, India 39495.
+              Kumbakonam - 612001. Tamilnadu India .
               </Typography>
             </Box>
             <Box display="flex" alignItems="center" mt={1}>
               <PhoneIcon />
-              <Typography sx={{ ml: 2 }}>(406) 5XX-012X</Typography>
+              <Typography sx={{ ml: 2 }}>0435-2426823</Typography>
             </Box>
             <Box display="flex" alignItems="center" mt={1}>
               <EmailIcon />
-              <Typography sx={{ ml: 2 }}>exampleX@gmail.com</Typography>
+              <Typography sx={{ ml: 2 }}>webtek.innovators@gmail.com</Typography>
             </Box>
           </Grid>
           <Grid
@@ -207,7 +207,7 @@ const Footer = () => {
                 textDecoration: "none",
               }}
             >
-              Hari Hara & JayaSurya
+              Webtek Team 2k25
             </a>
           </Typography>
         </Box>

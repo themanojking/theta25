@@ -56,7 +56,7 @@ const AllEvents = () => {
                 sx={{
                     position: "relative",
                     backgroundImage: "url(Assets/Logo.png)",
-                    backgroundSize: "40%",
+                    backgroundSize: "20%",
                     backgroundPosition: "center",
                     backgroundRepeat:'no-repeat',
                     color: "white",
