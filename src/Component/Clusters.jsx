@@ -250,7 +250,7 @@ const Clusters = () => {
       title: "",
       imgSrc: "Assets/pixel.png",
       subtitle: "Pixelq",
-      description: "The intersection of sport and artistic expression.",
+      description: "Crafting Visual Masterpieces with Precision",
       path: "/",
     },
     {
