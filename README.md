@@ -1,3 +1,6 @@
+
+credits : https://github.com/Hari-Hara-2005
+
 # College Cultural Program Website
 
 A dynamic website showcasing workshops and events organized by our college's cultural committee. The platform provides users with easy access to information about upcoming events, workshops, and various cultural activities.
