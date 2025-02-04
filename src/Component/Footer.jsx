@@ -15,7 +15,7 @@ const navLinks = [
   { title: "Contact Us", path: "/ContactUs" },
 ];
 const UsefulLinks = [
-  { title: "Sastra University", path: "/https://www.sastra.edu/" },
+  { title: "Sastra University", href: "https://www.sastra.edu/" },
   { title: "Rules & Regulation", path: "/about" },
 ];
 const ScrollToTop = () => {
@@ -200,7 +200,7 @@ const Footer = () => {
           <Typography variant="body2">
             Copyright © 2024 Theta | Designed and Developed by{" "}
             <a
-              href="https://harihara.vercel.app/"
+            
               style={{
                 color: "#fff",
                 fontWeight: "600",

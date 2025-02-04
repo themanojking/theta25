@@ -12,41 +12,49 @@ const AllEvents = () => {
             title: 'CELEBRATING SOON',
             lastDate: ' CELEBRATING SOON',
             submissionDates: 'Strategia',
+             registrationLink: 'https://forms.gle/data_science',
         },
         {
             title: 'CELEBRATING SOON',
             lastDate: 'CELEBRATING SOON',
             submissionDates: 'Robotics',
+             registrationLink: 'https://forms.gle/data_science',
         },
         {
             title: 'CELEBRATING SOON',
             lastDate: 'CELEBRATING SOON',
             submissionDates: 'Informatica',
+             registrationLink: 'https://forms.gle/data_science',
         },
         {
             title: 'CELEBRATING SOON',
             lastDate: 'CELEBRATING SOON',
             submissionDates: 'Equilibria',
+             registrationLink: 'https://forms.gle/data_science',
         },
         {
             title: 'CELEBRATING SOON',
             lastDate: 'CELEBRATING SOON',
             submissionDates: 'Equilibria',
+             registrationLink: 'https://forms.gle/data_science',
         },
         {
             title: 'CELEBRATING SOON',
             lastDate: 'CELEBRATING SOON',
             submissionDates: 'Electronica',
+             registrationLink: 'https://forms.gle/data_science',
         },
         {
             title: 'CELEBRATING SOON',
             lastDate: 'CELEBRATING SOON',
             submissionDates: 'Biogenesis',
+             registrationLink: 'https://forms.gle/data_science',
         },
         {
             title: 'CELEBRATING SOON',
             lastDate: 'CELEBRATING SOON',
             submissionDates: 'Informatica',
+             registrationLink: 'https://forms.gle/data_science',
         },
     ];
     
@@ -188,7 +196,7 @@ const AllEvents = () => {
                             <Button
                                 variant="contained"
                                 //GOOGLE FORM   
-                             href='https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fu%2F1%2Fd%2Fe%2F1FAIpQLSdP5O-OMQqGbG16zy409Bez6kPIw8j1MxAmTigOEIIXJsbXtw%2Fviewform%3Fvc%3D0%26c%3D0%26w%3D1%26flr%3D0%26usp%3Dmail_form_link&followup=https%3A%2F%2Fdocs.google.com%2Fforms%2Fu%2F1%2Fd%2Fe%2F1FAIpQLSdP5O-OMQqGbG16zy409Bez6kPIw8j1MxAmTigOEIIXJsbXtw%2Fviewform%3Fvc%3D0%26c%3D0%26w%3D1%26flr%3D0%26usp%3Dmail_form_link&ifkv=ARpgrqd7Ih4Y2zXG4npHhCFNw6BjAF5O1WvkUAln9qkdNIsJeGosz6oFAwAJcETP-i-WOxxrWySAYw&ltmpl=forms&osid=1&passive=1209600&service=wise&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-1289135996%3A172923316670464'
+                             href={contest.registrationLink}
                                 sx={{
                                     background: `linear-gradient(91.83deg, rgb(255, 81, 47) 0%, rgb(221, 36, 118) 100%)`,
                                     width:'80%',

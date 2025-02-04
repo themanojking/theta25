@@ -10,13 +10,13 @@ const Day3 = () => {
   
     const contestData = [
         {
-            title: 'Escape Room',
-            lastDate: '10:00 a.m. - 1:00 p.m. | Venue: 406',
+            title: 'CELEBRATING SOON',
+            lastDate: 'CELEBRATING SOON',
             submissionDates: 'Strategia',
         },
         {
-            title: 'Robo-Saga',
-            lastDate: '9:30 a.m. - 1:30 p.m. | Venue: Basketball Court',
+            title: 'CELEBRATING SOON',
+            lastDate: 'CELEBRATING SOONt',
             submissionDates: 'Robotics',
         },
         {
@@ -56,7 +56,7 @@ const Day3 = () => {
                 sx={{
                     position: "relative",
                     backgroundImage: "url(Assets/Logo.png)",
-                    backgroundSize: "40%",
+                    backgroundSize: "20%",
                     backgroundPosition: "center",
                     backgroundRepeat:'no-repeat',
                     color: "white",

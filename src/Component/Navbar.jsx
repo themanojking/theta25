@@ -85,13 +85,16 @@ export default function Navbar(props) {
     {
       name: "Events",
     },{
-      link:"/",
+      link:"/Workshops",
       name:"Workshops"
     },
     {
       link: "/ContactUs",
       name: "Contact Us",
-    },
+    },{
+      name:"About Us",
+      link:"/Developers"
+    }
   ];
 
   const dayMenuItems = [

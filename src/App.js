@@ -12,7 +12,8 @@ import Day1 from './Pages/EventsPages/Day1';
 import Day2 from './Pages/EventsPages/Day2';
 import Day3 from './Pages/EventsPages/Day3';
 import ContactUs from './Pages/ContactUs';
-
+import Workshops from './Pages/Workshops';
+import Developers from './Pages/Developers ';
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -30,7 +31,8 @@ function App() {
         <Route path='/Day1' element={<Day1 />} />
         <Route path='/Day2' element={<Day2 />} />
         <Route path='/Day3' element={<Day3 />} />
-        
+        <Route path='/Workshops' element={<Workshops />} />
+        <Route path='/Developers' element={<Developers />} />
       </Routes>
     </BrowserRouter>
   );

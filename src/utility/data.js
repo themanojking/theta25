@@ -61,7 +61,7 @@ export const reviews = [
   {
     id: 1,
     avatar: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "@johndoe",
+    name: "",
     role: "Student",
     review:
       "Theta is an amazing platform! The workshops are informative and fun! 🎉 I always leave feeling inspired.",
@@ -69,14 +69,14 @@ export const reviews = [
   {
     id: 2,
     avatar: "https://randomuser.me/api/portraits/women/2.jpg",
-    name: "@janedoe",
+    name: "",
     role: "Event Organizer",
     review: "The DJ events are electrifying! Can't wait for the next one! 🎶 Every performance is better than the last!",
   },
   {
     id: 3,
     avatar: "https://randomuser.me/api/portraits/men/3.jpg",
-    name: "@studentlife",
+    name: "",
     role: "Student",
     review:
       "The variety of workshops offered is impressive! I learned so much! It's a great way to meet new people too.",
@@ -84,7 +84,7 @@ export const reviews = [
   {
     id: 4,
     avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-    name: "@creativemind",
+    name: "",
     role: "Art Student",
     review:
       "A fantastic experience! The events help us connect and express our creativity. I’ve made lifelong friends here.",
@@ -92,7 +92,7 @@ export const reviews = [
   {
     id: 5,
     avatar: "https://randomuser.me/api/portraits/men/5.jpg",
-    name: "@eventlover",
+    name: "",
     role: "Party Enthusiast",
     review:
       "Theta knows how to throw a party! The vibes are always on point! 🕺 I can’t recommend it enough to my friends.",
@@ -100,14 +100,14 @@ export const reviews = [
   {
     id: 6,
     avatar: "https://randomuser.me/api/portraits/women/6.jpg",
-    name: "@musicfan",
+    name: "",
     role: "Music Lover",
     review: "The DJs are top-notch! They keep the energy high all night long! You’ll always leave wanting more.",
   },
   {
     id: 7,
     avatar: "https://randomuser.me/api/portraits/men/7.jpg",
-    name: "@workshopwarrior",
+    name: "",
     role: "Workshop Participant",
     review:
       "Loved the hands-on approach in the workshops! Can't wait for more! It’s refreshing to learn in such an interactive environment.",
@@ -115,7 +115,7 @@ export const reviews = [
   {
     id: 8,
     avatar: "https://randomuser.me/api/portraits/women/8.jpg",
-    name: "@partygor",
+    name: "",
     role: "Student",
     review:
       "Every event is a blast! I'm always looking forward to what Theta has next! 🎊 Their events are unforgettable experiences.",

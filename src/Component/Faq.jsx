@@ -38,7 +38,7 @@ export default function Faq() {
     },
     {
       que: "How can I contact the event organizers?",
-      ans: "You can reach the event organizers via email at events@college.edu or through our student council representatives.",
+      ans: "You can reach the event organizers  through our student council representatives.",
     },
   ];
   
