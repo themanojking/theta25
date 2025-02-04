@@ -92,7 +92,7 @@ export default function Navbar(props) {
       link: "/ContactUs",
       name: "Contact Us",
     },{
-      name:"About Us",
+      name:"Developers",
       link:"/Developers"
     }
   ];
