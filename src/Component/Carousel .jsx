@@ -143,7 +143,7 @@ const Carousel = () => {
                     marginTop: "20px",
                   }}
                 >
-                    <Button
+                    {/* <Button
                     variant="contained"
                     endIcon={<ArrowCircleRightIcon />}
                     href={slide.path}
@@ -163,7 +163,7 @@ const Carousel = () => {
                     }}
                   >
                     See More
-                  </Button>
+                  </Button> */}
                 </Box>
               </Box>
             </Box>
@@ -240,7 +240,7 @@ const Carousel = () => {
           ))}
         </Box>
 
-        <Box
+        {/* <Box
           sx={{
             position: "absolute",
             top: "80%",
@@ -285,7 +285,7 @@ const Carousel = () => {
           >
             <ArrowForwardIos />
           </IconButton>
-        </Box>
+        </Box> */}
         <Box
           sx={{
             position: "absolute",
