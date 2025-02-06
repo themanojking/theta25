@@ -7,12 +7,12 @@ import Footer from '.././Component/Footer';
 
 const Developers = () => {
     const developers = [
-        { name: 'Hari haran', role: 'Full Stack Developer', description: 'Expert in React and UI/UX design.', image: './assets/hari.png', profileLink: 'https://linkedin.com/in/johndoe' },
-        { name: 'Manoj kumar', role: 'Backend Developer', description: 'Specialist in Node.js ', image: './assets/manoj.png', profileLink: 'https://github.com/janesmith' },
-        { name: 'Manirathnam', role: 'Frontend Developer', description: 'Proficient in frontend development.', image: './assets/mani.png', profileLink: 'https://linkedin.com/in/alicejohnson' },
-        { name: 'Jayasurya', role: 'DevOps Engineer', description: 'Experienced in cloud computing and CI/CD pipelines.', image: './assets/surya.png', profileLink: 'https://github.com/bobbrown' },
-        { name: 'Harish', role: 'Cybersecurity Specialist', description: 'Passionate about ethical hacking and security analysis.', image: './assets/harish.png', profileLink: 'https://linkedin.com/in/charliewhite' },
-        { name: 'Mohamed Haaron', role: 'AI/ML Engineer', description: 'Focused on deep learning and data science applications.', image: './assets/haaroon.jpeg', profileLink: 'https://github.com/emilydavis' }
+        { name: 'Hari haran', role: 'Full Stack Developer', description: 'Expert in React and UI/UX design.', image: '/Assets/hari.png', profileLink: 'https://linkedin.com/in/johndoe' },
+        { name: 'Manoj kumar', role: 'Backend Developer', description: 'Specialist in Node.js ', image: '/Assets/manoj.png', profileLink: 'https://github.com/janesmith' },
+        { name: 'Manirathnam', role: 'Frontend Developer', description: 'Proficient in frontend development.', image: '/Assets/mani.png', profileLink: 'https://linkedin.com/in/alicejohnson' },
+        { name: 'Jayasurya', role: 'DevOps Engineer', description: 'Experienced in cloud computing and CI/CD pipelines.', image: '/Assets/surya.png', profileLink: 'https://github.com/bobbrown' },
+        { name: 'Harish', role: 'Cybersecurity Specialist', description: 'Passionate about ethical hacking and security analysis.', image: '/Assets/harish.png', profileLink: 'https://linkedin.com/in/charliewhite' },
+        { name: 'Mohamed Haaron', role: 'AI/ML Engineer', description: 'Focused on deep learning and data science applications.', image: '/Assets/haaroon.jpeg', profileLink: 'https://github.com/emilydavis' }
     ];
 
     return (
